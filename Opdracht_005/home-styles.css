@@ -1,4 +1,4 @@
-.box-model-properties {
+/* .box-model-properties {
 	border: 5px solid lightgreen;
 	margin: 20px : 
 	padding: 10px
@@ -9,10 +9,24 @@ body {
 	color: rgb(43, 4, 4);       
 }
 
+*/
+
+
+
+
+
 .black-border {
-	border: 5px solid black;
+    border: 5px solid black;
+    margin: 4px;
 }
 
-#pink-background {
-	background-color: rgb(204, 22, 159);
+
+body {
+    background-color: rgb(68, 5, 31);
+    color: white;
+} 
+
+p, h1, h2, a
+{
+    padding-left:15px;
 }

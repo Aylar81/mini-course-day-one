@@ -1,21 +1,3 @@
-.box-model-properties {
-	border: 5px solid lightgreen;
-	margin: 20px : 
-	padding: 10px
-}
-
-
-body { 
-	color: rgb(43, 4, 4);       
-}
-
-.black-border {
-	border: 5px solid black;
-}
-
-#pink-background {
-	background-color: rgb(204, 22, 159);
-}
 
 #main-container {
     border: 5px solid black;
@@ -37,4 +19,13 @@ body {
   #home-page-button-image {
     height: 100%;
   }
+
+
+  /* # selecteert een id 
+	 . selecteert een class
+	 een id, als je het goed implementeert is uniek. Er is maar 1 van.
+	 een class is een groep van elementen.
+	 door een class te pakken style je dus ook een groep van elementen, waarbij een id
+	 slechts 1 element pakt.
+	 */
   
