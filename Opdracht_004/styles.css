@@ -1,0 +1,12 @@
+
+body { 
+	color: rgb(43, 4, 4);       
+}
+
+.black-border {
+	border: 5px solid black;
+}
+
+#green-background {
+	background-color: green;
+}
