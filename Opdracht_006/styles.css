@@ -1,0 +1,31 @@
+
+#main-container {
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    margin:auto;
+  }
+  
+  .black-border-thick {
+    position: absolute;
+    border: 1px solid black;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+  }
+  #home-page-button-image {
+    height: 100%;
+  }
+
+
+  /* # selecteert een id 
+	 . selecteert een class
+	 een id, als je het goed implementeert is uniek. Er is maar 1 van.
+	 een class is een groep van elementen.
+	 door een class te pakken style je dus ook een groep van elementen, waarbij een id
+	 slechts 1 element pakt.
+	 */
+  
