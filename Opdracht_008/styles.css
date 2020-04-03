@@ -1,0 +1,21 @@
+#main-container {
+  border: 5px solid black;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.black-border-thick {
+  position: absolute;
+  border: 1px solid black;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+}
+
+#home-page-button-image {
+  height: 100%;
+}
