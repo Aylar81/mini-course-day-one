@@ -22,11 +22,26 @@ body {
 
 
 body {
-    background-color: rgb(68, 5, 31);
     color: white;
 } 
 
+/*  */
 p, h1, h2, a
 {
     padding-left:15px;
+}
+
+#main
+{
+    background-color: rgb(68, 5, 31);
+}
+
+#header
+{
+    background-color: rgb(68, 5, 31);
+}
+
+#footer
+{
+    background-color: rgb(68, 5, 31);
 }
