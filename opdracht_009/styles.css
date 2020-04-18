@@ -1,51 +1,64 @@
 .wrapper {
+    width: 70%;
+    margin: 0 auto;
+    height: 1000px;
+    grid-template-areas:
+    "menu menu menu menu menu"
+     "circle-menu circle-menu circle-menu circle-menu circle-menu"
+     "circle-menu circle-menu circle-menu circle-menu circle-menu"
+     "circle-menu circle-menu circle-menu circle-menu circle-menu";
     display: grid;
-    grid-template-columns: 40px auto auto 40px;
-    grid-template-rows: 25% auto 100px;
+    grid-template-rows: auto;
+    grid-gap: 20px;
 }
 
-header {
-    grid-column: span 12;
-    background-color: red;
+.circles-menu-container {
+    grid-area: circle-menu;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /* background-color: red; */
 }
 
-content {
-    grid-column: span 8;
+.menu-container {
+    grid-area: menu;
+    grid-column-start: 3;
+    grid-column-end: 4;
     background-color: orange;
 }
 
-footer {
-    grid-column: span12;
+
+li {
+    list-style:none;
+    display:inline;
+}
+
+
+#god {
+    width:600px;
+    height:600px;
+    border-radius:600px;
     background-color: aqua;
+    z-index: 100; 
+    position: absolute;
 }
 
-@media screen and (max-width: 480px) {
-    .header {
-        grid-column: span 6;
-    }
-    .menu {
-        grid-row: 1;
-        grid-column: span6;
-    }
-    .content {
-        grid-column: span 12;
-    }
-    .container {
-        display: grid;
-        grid-template-columns: 100X auto 100 px;
-        /* grid-template-row: 50px 50px; */
-    }
+#tihw {
+    width:300px;
+    height:300px;
+    border-radius:300px;
+    background-color: blue;
+    z-index: 500;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 300px;
 }
-/* 
-Het idee lijkt te zijn dat je 1 schil hebt, (container, wrapper)
- call it whatever you like
 
- waarin je dan vervolgens dingen gaat opdelen in hokjes
-
-
- ------------
- |    |     |
- |    |     |
- |    |     |
- ------------ */
-
+#zeitgeist {
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    background-color: coral;
+    z-index: 200;
+    margin-top: 200px;
+    position: absolute;
+}
